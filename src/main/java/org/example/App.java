@@ -19,7 +19,7 @@ public class App {
             WebElement passwordContainer = webDriver.findElement(By.xpath("//div[@id='content']//b[contains(text(), '$') or contains(text(), '@') or contains(text(), '#') or string-length() > 5]"));
             String generatedPassword = passwordContainer.getText();
 
-            System.out.println("Полученный пароль: " + generatedPassword);
+            System.out.println("Пароль: " + generatedPassword);
             System.out.println();
 
             Task2.run();
