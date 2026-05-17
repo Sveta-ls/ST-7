@@ -96,7 +96,6 @@ public class Task3 {
             writer.close();
 
             System.out.println();
-            System.out.println("Файл forecast.txt создан.");
 
         } catch (Exception e) {
 
